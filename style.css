@@ -12,18 +12,23 @@ h1{
     text-align: center;
 }
 h2{
+    color:rgb(0, 0, 0);
     text-align: center;
 }
 h3{
+    color:rgb(0, 0, 0);
     text-align: center;
 }
 h4{
+    color:rgb(0, 0, 0);
     text-align: center;
 }
 h5{
+    color:rgb(0, 0, 0);
     text-align: center;
 }
 h6{
+    color:rgb(0, 0, 0);
     text-align: center;
 }
 p{
@@ -35,9 +40,23 @@ p{
     background-color: black;
     text-align: center;
     color:gray;
+    border-radius: 25px;
+    border-style: outset;
+    border-width: 10px;
+    border-color: rgb(17, 128, 187);
     tr{
-        background-color: gray;
+        background-color: rgb(20, 158, 232);
         color:black;
+        border-radius: 25px;
+        border-style: outset;
+        border-width: 10px;
+        border-color: rgb(17, 128, 187);
+        th{
+            border-radius: 25px;
+            border-style: inset;
+            border-width: 5px;
+            border-color: rgb(17, 128, 187);
+        }
     }
 }
 #navBar{
@@ -85,4 +104,20 @@ button{
 }
 button:hover{
     background-color: rgba(0, 136, 169, 0.8);
+}
+#showcase{
+    border-radius: 20px;
+    border-style: inset;
+    border-width: 5px;
+    border-color: blue;
+    background-color: rgb(67, 111, 169);
+    max-width: 300px;
+    max-height: 400px;
+    color:black;
+    margin: 10px;
+    tr{
+        th{
+
+        }
+    }
 }
