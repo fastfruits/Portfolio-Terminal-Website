@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 body{
-    margin-top: 100px;
     background-color: rgb(151, 151, 151);
     font-family: "consolas", sans-serif;
 }
@@ -46,8 +45,8 @@ p{
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
-    position:fixed;
-    top:0px;
+    position: sticky;
+    top: 0px;
     background-color: rgb(0, 0, 0);
 }
 li, a, button{
@@ -60,11 +59,10 @@ li, a, button{
 
 .logo{
     cursor: pointer;
+    margin-right: 200px;
 }
 .nav_links{
     list-style: none;
-    margin-left: 350px;
-    margin-right: 177px;
 }
 .nav_links li{
     display: inline-block;
