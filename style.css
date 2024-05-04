@@ -113,10 +113,31 @@ button:hover{
     background-color: rgb(67, 111, 169);
     max-width: 300px;
     max-height: 400px;
+    color:black;
     margin: 10px;
-    tr{
-        th{
-
-        }
-    }
+}
+#showcaseCa{
+    margin: 0px;
+    font-size: 25px;
+    height: 25px;
+    border-radius: 25px;
+    border-style:solid;
+    border-color: rgb(163, 188, 221);
+    background-color: rgb(163, 188, 221);
+}
+#showcaseCb{
+    margin: 0px;
+    border-radius: 25px;
+    border-style:solid;
+    border-color: rgb(163, 188, 221);
+    background-color: rgb(163, 188, 221);
+}
+#showcaseCc{
+    margin: 0px;
+    font-size: 20px;
+    height: 75px;
+    border-radius: 25px;
+    border-style:solid;
+    border-color: rgb(163, 188, 221);
+    background-color: rgb(163, 188, 221);
 }
