@@ -111,8 +111,8 @@ button:hover{
     border-width: 5px;
     border-color: blue;
     background-color: rgb(67, 111, 169);
-    width:25vw;
-    height:500px;
+    max-width: 300px;
+    max-height: 400px;
     color:black;
     margin: 10px;
 }
