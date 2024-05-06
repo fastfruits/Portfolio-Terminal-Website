@@ -4,12 +4,14 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(151, 151, 151);
+    background-color: rgb(238, 238, 238);
     font-family: "consolas", sans-serif;
 }
 h1{
     color:rgb(0, 0, 0);
     text-align: center;
+    font-size: 75px;
+    font-weight:1000;
 }
 h2{
     color:rgb(0, 0, 0);
@@ -33,7 +35,9 @@ h6{
 }
 p{
     color:rgb(0, 0, 0);
-    text-align: center;
+    text-align: left;
+    margin-left: 15px;
+    font-size: 20px;
 }
 #projects{
     font-size: 14px;
@@ -71,7 +75,7 @@ p{
 li, a, button{
     font-family: "consolas", sans-serif;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 20px;
     color: #ecf0f1;
     text-decoration: none;
 }
@@ -89,6 +93,7 @@ li, a, button{
 }
 .nav_links li a{
     transition: all 0.3s ease 0s;
+    font-size: 25px;
 }
 .nav_links li a:hover{
     color: #0088a9;
@@ -100,26 +105,27 @@ button{
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
-    margin-left: 100px;
+    margin-left: 75px;
 }
 button:hover{
     background-color: rgba(0, 136, 169, 0.8);
 }
 #showcase{
-    border-radius: 20px;
-    border-style: inset;
-    border-width: 5px;
+    border-radius: 30px;
+    border-style:groove;
+    border-width: 4px;
     border-color: blue;
     background-color: rgb(67, 111, 169);
-    max-width: 300px;
-    max-height: 400px;
+    width: 48vw;
+    height: 68vh;
     color:black;
-    margin: 10px;
+    margin: 12px;
+    display: inline-block;
 }
 #showcaseCa{
     margin: 0px;
     font-size: 25px;
-    height: 25px;
+    height: 2vw;
     border-radius: 25px;
     border-style:solid;
     border-color: rgb(163, 188, 221);
@@ -128,6 +134,7 @@ button:hover{
 #showcaseCb{
     margin: 0px;
     border-radius: 25px;
+    height: 54vh;
     border-style:solid;
     border-color: rgb(163, 188, 221);
     background-color: rgb(163, 188, 221);
@@ -140,4 +147,15 @@ button:hover{
     border-style:solid;
     border-color: rgb(163, 188, 221);
     background-color: rgb(163, 188, 221);
+}
+#img{
+    height: 48vh;
+    width: 46vw;
+    border-radius: 15px;
+
+}
+#langImgs{
+    width: 10vw;
+    height: 20vh;
+    display: block;
 }
