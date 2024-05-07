@@ -112,10 +112,10 @@ button:hover{
 }
 #showcase{
     border-radius: 30px;
-    border-style:groove;
-    border-width: 4px;
-    border-color: blue;
-    background-color: rgb(67, 111, 169);
+    border-style:double;
+    border-width: 15px;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     width: 48vw;
     height: 68vh;
     color:black;
@@ -128,31 +128,35 @@ button:hover{
     height: 2vw;
     border-radius: 25px;
     border-style:solid;
-    border-color: rgb(163, 188, 221);
-    background-color: rgb(163, 188, 221);
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
 }
 #showcaseCb{
     margin: 0px;
     border-radius: 25px;
-    height: 54vh;
+    max-height: 50vh;
     border-style:solid;
-    border-color: rgb(163, 188, 221);
-    background-color: rgb(163, 188, 221);
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    font-size: 13px;
 }
 #showcaseCc{
     margin: 0px;
     font-size: 20px;
-    height: 75px;
+    height: 4vw;
     border-radius: 25px;
     border-style:solid;
-    border-color: rgb(163, 188, 221);
-    background-color: rgb(163, 188, 221);
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
 }
 #img{
-    height: 48vh;
-    width: 46vw;
+    height: 60vh;
+    width: 48vw;
     border-radius: 15px;
-
+    border-color: black;
+    border-width: 15px;
+    border-style: double;
+    margin-left: 15px;
 }
 #langImgs{
     width: 10vw;
