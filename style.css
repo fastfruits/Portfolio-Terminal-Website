@@ -39,30 +39,6 @@ p{
     margin-left: 15px;
     font-size: 20px;
 }
-#projects{
-    font-size: 14px;
-    background-color: black;
-    text-align: center;
-    color:gray;
-    border-radius: 25px;
-    border-style: outset;
-    border-width: 10px;
-    border-color: rgb(17, 128, 187);
-    tr{
-        background-color: rgb(20, 158, 232);
-        color:black;
-        border-radius: 25px;
-        border-style: outset;
-        border-width: 10px;
-        border-color: rgb(17, 128, 187);
-        th{
-            border-radius: 25px;
-            border-style: inset;
-            border-width: 5px;
-            border-color: rgb(17, 128, 187);
-        }
-    }
-}
 #navBar{
     display:flex;
     justify-content: space-between;
@@ -79,7 +55,6 @@ li, a, button{
     color: #ecf0f1;
     text-decoration: none;
 }
-
 .logo{
     cursor: pointer;
     margin-right: 200px;
