@@ -1,5 +1,6 @@
 "use strict"
 
+console.log("working");
 const boxes = document.querySelectorAll(".box");
 
 window.addEventListener("scroll", DisplayContent);
