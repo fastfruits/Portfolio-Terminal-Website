@@ -1,16 +1,19 @@
 "use strict"
 
-console.log("working");
 const boxes = document.querySelectorAll(".box");
 
 window.addEventListener("scroll", DisplayContent);
+document.getElementById("demo").addEventListener("click", DisplayDemo);
 
 DisplayContent();
 
+function DisplayDemo(){
+    console.log("Displaying Demo");
+    this.box.classList.add("demo");
+}
 
 function DisplayContent(){
-    console.log(window.innerHeight);
-    const TriggerBottom = (window.innerHeight /5) * 4;
+    const TriggerBottom = (window.innerHeight /5) * 4.5;
 
     boxes.forEach((box)=>{
         const topBox = box.getBoundingClientRect().top;
