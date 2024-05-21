@@ -176,12 +176,12 @@ button:hover{
     transition: all 0.4s ease-out;
 }
 
- #timeline ul li .box.show{
+#timeline ul li .box.show{
     transition: all 0.4s ease-in;
     transform:translateX(0%);
- }
+}
 
- #timeline ul li i{
+#timeline ul li i{
     position: absolute;
     left:50%;
     top:20;
