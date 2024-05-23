@@ -11,14 +11,28 @@
         <i id="logo" class="fa-solid fa-circle-user"></i>
         <nav>
             <ul class="nav_links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projectPage.html">My Projects</a></li>
-                <li><a href="about.html">About Me</a></li>
+                <li><a href="index.html"><b>Home</b></a></li>
+                <li><a href="projectPage.html" id="projectsHov"><b>My Projects</b></a>
+                    <ul id="submenu">
+                        <li><a href="#project1">project1</a></li>
+                        <li><a href="#project2">project2</a></li>
+                        <li><a href="#project3">project3</a></li>
+                        <li><a href="#project4">project4</a></li>
+                        <li><a href="#project5">project5</a></li>
+                        <li><a href="#project6">project6</a></li>
+                        <li><a href="#project7">project7</a></li>
+                        <li><a href="#project8">project8</a></li>
+                        <li><a href="#project9">project9</a></li>
+                        <li><a href="#project10">project10</a></li>
+                    </ul>
+                
+                </li>
+                <li><a href="about.html"><b>About Me</b></a></li>
             </ul>
         </nav>
         <a class="cta" href="#"><button>Contact Me</button></a>
-        <a href="https://www.linkedin.com/in/nicholas-henry-57b325283/" target="_blank" id="links"><i class="fa-brands fa-linkedin"></i></a>
-        <a href="https://github.com/fastfruits" target="_blank" id="links"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/nicholas-henry-57b325283/" target="_blank" id="lnkdin" class="links"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/fastfruits" target="_blank" class="links"><i class="fa-brands fa-github"></i></a>
         <script src="https://kit.fontawesome.com/fe5d637ae3.js" crossorigin="anonymous"></script>
     </header>
     <h1>My Projects</h1>
@@ -28,49 +42,51 @@
             <h1 class="heading">Project Timeline</h1>
             <ul>
                 <li>
-                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-java" id="project1"></i>
                     <div class="box">
                         <h3 class="title"><span class="year">Oct22</span>First Java Program</h3>
-                        <div id="bottom">
-                            <p id="demo">
+                            <p id="demo1" contenteditable="true">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, delectus dolores nemo eum, fugit saepe ipsam sed rerum temporibus incidunt eligendi expedita illo. Officia laboriosam, aspernatur vitae consequatur delectus expedita!
                             </p>
-                        </div>
+                            <div id="bottom1"></div>
                         <button id="demoBtn1">See Demo</button>
                     </div>
                 </li>
                 <li>
-                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-brands fa-python" id="project2"></i>
                     <div class="box">
                         <h3 class="title"><span class="year">Dec22</span>First Python Program</h3>
-                        <p id="demo2">
+                        <p id="demo2" contenteditable="true">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, delectus dolores nemo eum, fugit saepe ipsam sed rerum temporibus incidunt eligendi expedita illo. Officia laboriosam, aspernatur vitae consequatur delectus expedita!
                         </p>
+                        <div id="bottom2"></div>
                         <button id="demoBtn2">See Demo</button>
                     </div>
                 </li>
                 <li>
-                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-java" id="project3"></i>
                     <div class="box">
                         <h3 class="title"><span class="year">Jun23</span>Minesweeper Program</h3>
-                        <p id="demo3">
+                        <p id="demo3" contenteditable="true">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, delectus dolores nemo eum, fugit saepe ipsam sed rerum temporibus incidunt eligendi expedita illo. Officia laboriosam, aspernatur vitae consequatur delectus expedita!
                         </p>
+                        <div id="bottom3"></div>
                         <button id="demoBtn3">See Demo</button>
                     </div>
                 </li>
                 <li>
-                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-brands fa-python" id="project4"></i>
                     <div class="box">
                         <h3 class="title"><span class="year">Jun23</span>First AI Project</h3>
-                        <p id="demo4">
+                        <p id="demo4" contenteditable="true">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, delectus dolores nemo eum, fugit saepe ipsam sed rerum temporibus incidunt eligendi expedita illo. Officia laboriosam, aspernatur vitae consequatur delectus expedita!
                         </p>
+                        <div id="bottom4"></div>
                         <button id="demoBtn4">See Demo</button>
                     </div>
                 </li>
                 <li>
-                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-html5" id="project5"></i>
                     <div class="box">
                         <h3 class="title"><span class="year">Jun23</span>First HTML/CSS/JS Project</h3>
                         <p>
@@ -80,7 +96,7 @@
                     </div>
                 </li>
                 <li>
-                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-brands fa-python" id="project6"></i>
                     <div class="box">
                         <h3 class="title"><span class="year">Nov23-Present</span>First Python Program</h3>
                         <p>
@@ -90,7 +106,7 @@
                     </div>
                 </li>
                 <li>
-                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-java" id="project7"></i>
                     <div class="box">
                         <h3 class="title"><span class="year">Dec23</span>School Club Hack-A-Thon Program</h3>
                         <p>
@@ -100,7 +116,7 @@
                     </div>
                 </li>
                 <li>
-                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-java" id="project8"></i>
                     <div class="box">
                         <h3 class="title"><span class="year">Apr24</span>School Club Gamejam Program</h3>
                         <p>
@@ -110,7 +126,7 @@
                     </div>
                 </li>
                 <li>
-                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-html5" id="project9"></i>
                     <div class="box">
                         <h3 class="title"><span class="year">Apr24</span>This Website</h3>
                         <p>
@@ -120,7 +136,7 @@
                     </div>
                 </li>
                 <li>
-                    <i></i>
+                    <i id="project10"></i>
                     <div class="box">
                         <h3 class="title"><span class="year">Est Q3 2024</span>WIP</h3>
                         <p>
