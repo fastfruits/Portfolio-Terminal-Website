@@ -68,25 +68,20 @@ li, a, button{
     text-decoration: none;
 }
 
-#logo{
-    cursor: pointer;
-    margin-right: 20vw;
-    font-size: 300%;
-}
-
 .nav_links{
     list-style: none;
 }
 
 .nav_links li{
     display: inline-block;
-    padding: 0px 3vw;
+    margin:1vw;
     align-items: center;
+    text-align: center;
 }
 
 .nav_links li a{
     transition: all 0.3s ease 0s;
-    font-size: 25px;
+    font-size: 120%;
 }
 
 .nav_links li a:hover{
@@ -258,8 +253,10 @@ button:hover{
 }
 
 .links{
-    right:0px;
-    font-size: 200%;
+    position: relative;
+    left:0px;
+    font-size: 300%;
+    margin-right: 2vw;
 }
 
 #lnkdin{
@@ -287,18 +284,19 @@ video{
 
 li:hover ul#submenu{
     opacity: 1;
-    top:68px;
-    left:41vw;
+    top:10vh;
+    left:39vw;
     visibility: visible;
 }
 
 #submenu li{
     float:none;
     background-color:black;
-    padding:0.75rem 1.75rem 0.75rem 1.75rem;
+    padding:1.5vh 1.75vw 1.5vh 1.75vw;
     display: block;
     text-align: center;
-    font-size: 20px;
+    font-size: 100%;
+    margin:0;
 }
 
 #submenu a:hover{
