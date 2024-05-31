@@ -1,4 +1,6 @@
 "use strict"
+const div = document.querySelector(".text");
+const text = "/*I'am a 17 year old Junior at TERRA Environmental Research Institute. I currently am able to program in Java, Python, HTML, CSS, JavaScript, and C# with my main language that I prefer being Java at the moment but I am always looking to learn something new(More In Depth Further Down the Page). */";
 
 const boxes = document.querySelectorAll(".box");
 const demo1 = document.getElementById("demoBtn1");
@@ -37,6 +39,7 @@ demoVid5.controls = true;
 demoVid6.src = 'Vids/sample.mp4';
 demoVid6.controls = true;    
 
+window.onload = (textTyper(div, text));
 window.addEventListener("scroll", DisplayContent);
 window.onload(boxes.forEach((box)=>{
     box.classList.add("show");
