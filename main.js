@@ -1,17 +1,17 @@
-var before = document.getElementById("before");
-var liner = document.getElementById("liner");
-var command = document.getElementById("typer"); 
-var textarea = document.getElementById("texter"); 
-var terminal = document.getElementById("terminal");
+var before = getEl("before");
+var liner = getEl("liner");
+var command = getEl("typer"); 
+var textarea = getEl("texter"); 
+var terminal = getEl("terminal");
 
 var git = 0;
 var commands = [];
 
 document.addEventListener("DOMContentLoaded", function() {
-    var loadingBar = document.getElementById("loading-bar");
-    var loadingText = document.getElementById("loading-text");
-    var mainContent = document.getElementById("main-content");
-    var loadingContainer = document.getElementById("loading-container");
+    var loadingBar = getEl("loading-bar");
+    var loadingText = getEl("loading-text");
+    var mainContent = getEl("main-content");
+    var loadingContainer = getEl("loading-container");
     var width = 0;
 
     function load() {
@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function() {
             setTimeout(function() {
                 document.body.classList.remove('loading');
                 loadingContainer.style.display = 'none';
-                document.getElementById("webTitle").style.display = 'none';
+                getEl("webTitle").style.display = 'none';
                 mainContent.style.display = 'block';
                 setTimeout(function() {
                     loopLines(banner, "", 20);
@@ -34,7 +34,6 @@ document.addEventListener("DOMContentLoaded", function() {
             loadingBar.style.width = width + '%';
         }
     }
-
     var interval = setInterval(load, 500);
 });
 
@@ -191,14 +190,14 @@ function nl2br(txt) {
     return txt.replace(/\n/g, '');
 }
 
-function typeIt(from, e) {
+function typeToTyper(from, e) {
     e = e || window.event;
     var w = getEl("typer");
     var tw = from.value;
     w.innerHTML = nl2br(tw);
 }
 
-function moveIt(count, e) {
+function moveCursor(count, e) {
     e = e || window.event;
     var keycode = e.keyCode || e.which;
     if (keycode == 37 && parseInt(cursor.style.left) >= (0 - ((count - 1) * 10))) {

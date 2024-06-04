@@ -35,10 +35,10 @@
         <textarea
           type="text"
           id="texter"
-          onkeyup="typeIt(this, event)"
-          onkeydown="typeIt(this, event); 
-                   moveIt(this.value.length, event)"
-          onkeypress="typeIt(this, event);"
+          onkeyup="typeToTyper(this, event)"
+          onkeydown="typeToTyper(this, event); 
+                   moveCursor(this.value.length, event)"
+          onkeypress="typeToTyper(this, event);"
           autofocus
         ></textarea>
         <div id="liner">
