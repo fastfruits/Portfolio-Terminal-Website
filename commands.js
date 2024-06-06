@@ -104,45 +104,74 @@ help = [
 portfolio = [
   "<br>",
   '<span class="command">Portfolio Website</span>',
-  '<a href="https://github.com/fastfruits/Website" target="_blank">Repository</a>',
-  "<br>"
-];
-
-ai = [
   "<br>",
-  '<span class="command">AI Text-Transcriber</span>',
-  '<a href="https://github.com/fastfruits/Website" target="_blank">Repository</a>',
-  "<br>"
-];
-
-rpg = [
+  "       -This very website which I programmed with HTML/CSS and Javascript to show off my portfolio and web development skills like responsiveness and functionality.",
   "<br>",
-  '<span class="command">Medieval RPG</span>',
-  '<a href="https://github.com/fastfruits/MedievalRPG1 target="_blank"">Repository</a>',
-  "<br>"
-];
-
-av = [
-  "<br>",
-  '<span class="command">Ten80 AV Car</span>',
-  "<br>"
-];
-
-benchmark = [
-  "<br>",
-  '<span class="command">Human Benchmark Test</span>',
+  'Check out the code here on my GitHub -----> <a class="command" href="https://github.com/fastfruits/Website" target="_blank">Repository</a>',
   "<br>"
 ];
 
 webdev = [
   "<br>",
   '<span class="command">Web Dev Internship</span>',
+  "<br>",
+  "      -Was invited by AICamp.org to intern for them and work on their website specifically creating a system to teach students year round as they were at the time limited",
+  "       to only the summer and winter school breaks. This project was coded in HTML/CSS and Javascript with the React and Vite libraries to connect the frontend to the backend.",
+  "<br>",
+  'Check out the code here on my GitHub -----> <a class="command" href="https://github.com/Suru10/CV-UI" target="_blank">',
+  "<br>"
+];
+
+ai = [
+  "<br>",
+  '<span class="command">AI Text-Transcriber</span>',
+  "<br>",
+  "      -Created and trained an AI model to recognize handwritten text and then transcribe it into a .txt file which could then be created into a .mp3 file that could be translated",
+  "       to whatever language the user wants if its available through Google's translate API. The program was written in python and used tensorflow and ",
+  "<br>",
+  'Check out the code here on my GitHub -----> <a class="command" href="https://github.com/panyang05/Text-Transcriber" target="_blank">Repository</a>',
+  "<br>"
+];
+
+rpg = [
+  "<br>",
+  '<span class="command">Medieval RPG</span>',
+  "<br>",
+  "      -Was a submission for my school coding club's GameJam in which the theme was time. The game a 2D topdown RPG style game was written in java using game development ",
+  "       practices like delta time, drawing many things to the screen, and creating a rudimentary artificial intelligence for the enemies.",
+  "       won first place in the competition.",
+  "<br>",
+  'Check out the code here on my GitHub -----> <a class="command" href="https://github.com/fastfruits/MedievalRPG1" target="_blank">Repository</a>',
+  "<br>"
+];
+
+av = [
+  "<br>",
+  '<span class="command">Ten80 AV Car</span>',
+  "<br>",
+  "     -I joined my school's Ten80 club and became the head of the AV car. I coded all the scripts for it to adhere to the Ten80 competition and each of the challenges.",
+  "      We took this car to many competitions and won a lot and were invited to the national finals in Charlotte. With this project I learned to combined software and hardware",
+  "      as I worked with coding sensors like an odometer, IR, and ultrasonic for the cars to be fully automatic in each challenge.",
+  "<br>"
+];
+
+benchmark = [
+  "<br>",
+  '<span class="command">Human Benchmark Test</span>',
+  "<br>",
+  "     -WIP",
+  "<br>",
+  'Check out the code here on my GitHub -----> <a class="command" href="https://github.com/fastfruits/Benchmark-Test" target="_blank">',
   "<br>"
 ];
 
 minesweeper = [
   "<br>",
   '<span class="command">Minesweeper</span>',
+  "<br>",
+  "     -WIP",
+  "<br>",
+  'Check out the code here on my GitHub -----> <a class="command" href="https://github.com/fastfruits/minesweeper target="_blank">',
   "<br>"
 ];
 

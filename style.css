@@ -8,6 +8,7 @@ body{
     background: #0f0e0d;
     font-family: cursor, monospace;
     overflow-x: hidden;
+    mix-blend-mode: difference;
 }
 
 body.loading {
