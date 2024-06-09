@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 getEl("webTitle").style.display = 'none';
                 mainContent.style.display = 'block';
                 setTimeout(function() {
-                    loopLines(banner, "", 20);
+                    writeLines(banner, "", 20);
                     textarea.focus();
                 }, 100);
             }, 500);
@@ -76,44 +76,44 @@ function enterKey(e) {
 function commander(cmd) {
     switch (cmd.toLowerCase()) {
         case "help":
-            loopLines(help, "color2 margin", 50);
+            writeLines(help, "color2 margin", 50);
         break;
         case "whois":
-            loopLines(whois, "color2 margin", 50);
+            writeLines(whois, "color2 margin", 50);
         break;
         case "skills":
-            loopLines(skills, "color2 margin", 50)
+            writeLines(skills, "color2 margin", 50)
         break;
         case "socials":
-            loopLines(socials, "color2 margin", 50);
+            writeLines(socials, "color2 margin", 50);
         break;
         case "projects":
-            loopLines(projects, "color2 margin", 50);
+            writeLines(projects, "color2 margin", 50);
         break;
         case "ai":
-            loopLines(ai, "color2 margin", 50);
+            writeLines(ai, "color2 margin", 50);
         break;
         case "av":
-            loopLines(av, "color2 margin", 50);
+            writeLines(av, "color2 margin", 50);
         break;
         case "minesweeper":
-            loopLines(minesweeper, "color2 margin", 50);
+            writeLines(minesweeper, "color2 margin", 50);
         break;
         case "webdev":
-            loopLines(webdev, "color2 margin", 50);
+            writeLines(webdev, "color2 margin", 50);
         break;
         case "rpg":
-            loopLines(rpg, "color2 margin", 50);
+            writeLines(rpg, "color2 margin", 50);
         break;
         case "benchmark":
-            loopLines(benchmark, "color2 margin", 50);
+            writeLines(benchmark, "color2 margin", 50);
         break;
         case "portfolio":
-            loopLines(portfolio, "color2 margin", 50);
+            writeLines(portfolio, "color2 margin", 50);
         break;
         case "history":
             addLine("<br>", "", 0);
-            loopLines(commands, "color2", 50);
+            writeLines(commands, "color2", 50);
             addLine("<br>", "command", 80 * commands.length + 50);
         break;
         case "email":
@@ -127,7 +127,7 @@ function commander(cmd) {
             }, 1);
         break;
         case "banner":
-            loopLines(banner, "", 50);
+            writeLines(banner, "", 50);
         break;
         case "linkedin":
             addLine("Opening LinkedIn...", "color2", 0);
@@ -177,7 +177,7 @@ function addLine(text, style, time) {
     }, time);
 }
 
-function loopLines(name, style, time) {
+function writeLines(name, style, time) {
     name.forEach(function(item, index) {
         addLine(item, style, index * time);
     });
@@ -192,7 +192,7 @@ function init() {
     cursor.style.left = "0px";
 }
 
-function nl2br(txt) {
+function newLineBR(txt) {
     return txt.replace(/\n/g, '');
 }
 
@@ -200,10 +200,10 @@ function typeToTyper(from, e) {
     e = e || window.event;
     var w = getEl("typer");
     var tw = from.value;
-    w.innerHTML = nl2br(tw);
+    w.innerHTML = newLineBR(tw);
 }
 
-function moveCursor(count, e) {
+function shiftCursor(count, e) {
     e = e || window.event;
     var keycode = e.keyCode || e.which;
     if (keycode == 37 && parseInt(cursor.style.left) >= (0 - ((count - 1) * 10))) {
