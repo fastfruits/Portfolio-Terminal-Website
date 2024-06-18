@@ -111,6 +111,12 @@ function commander(cmd) {
         case "portfolio":
             writeLines(portfolio, "color2 margin", 50);
         break;
+        case "news":
+            writeLines(news, "color2 margin", 50);
+        break;
+        case "aiAPI":
+            writeLines(aiAPI, "color2 margin", 50);
+        break;
         case "history":
             addLine("<br>", "", 0);
             writeLines(commands, "color2", 50);

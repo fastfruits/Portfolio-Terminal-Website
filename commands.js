@@ -33,11 +33,11 @@ skills = [
   "         *Have a lot of work with Java GUI like swing and JOP libraries.",
   "   -Python: ",
   "         *Learned through self teaching, videos, and projects.",
-  "         *Skilled in machine learning, web scraping, automation, and working with robotics and microcontrollers.",
+  "         *Skilled in machine learning, web scraping, automation, and working with robotics.",
   "         *Mainly used for my school club's Ten80 AV car which used a microcontroller and sensors like an odometer, IR, and ultrasonic.",
   "   -C#: ",
   "         *Learned through the freecodecamp.org C# certification course and self-driven projects.",
-  "         *This is the language I'm least expierenced in but have created applications and small games in the Unity Engine.",
+  "         *This is the language I'm least experienced in but have created applications and small games in the Unity Engine.",
   "<br>",
   '<span class="command">Web Development</span>',
   "<br>",
@@ -75,16 +75,17 @@ socials = [
 projects = [
   "<br>",
   '<a class="command" id="portfolio" onclick="addLine(\'X:\\Users\\Guest> \' + command.innerHTML, \'no-animation\', 0); writeLines(portfolio, \'\', 80)">Portfolio Website</a>           This website which I coded using HTML/CSS and JavaScript',
+  '<a class="command" id="aiAPI" onclick="addLine(\'X:\\Users\\Guest> \' + command.innerHTML, \'no-animation\', 0); writeLines(aiAPI, \'\', 80)">AI Personality</a>              AI personality chatbot using OpenAI, Azure, and Elevenlabs APIs coded in Python',
   '<a class="command" id="ai" onclick="addLine(\'X:\\Users\\Guest> \' + command.innerHTML, \'no-animation\', 0); writeLines(ai, \'\', 80)">AI Text-Transcriber</a>         First machine learning project using python, tensorflow, and google APIs',
   '<a class="command" id="rpg" onclick="addLine(\'X:\\Users\\Guest> \' + command.innerHTML, \'no-animation\', 0); writeLines(rpg, \'\', 80)">Medieval RPG</a>                Submission for my school club\'s GameJam coded in Java',
   '<a class="command" id="av" onclick="addLine(\'X:\\Users\\Guest> \' + command.innerHTML, \'no-animation\', 0); writeLines(av, \'\', 80)">Ten80 AV Car</a>                Wrote scripts in python for my school\'s Ten80 AV Car',
   '<a class="command" id="benchmark" onclick="addLine(\'X:\\Users\\Guest> \' + command.innerHTML, \'no-animation\', 0); writeLines(benchmark, \'\', 80)">Human Benchmark Test</a>        Submission for my school club\'s Hack-A-Thon coded in Java',
   '<a class="command" id="webdev" onclick="addLine(\'X:\\Users\\Guest> \' + command.innerHTML, \'no-animation\', 0); writeLines(webdev, \'\', 80)">Web Dev Internship</a>          Wrote a portion of AICamp.org\'s website in HTML/CSS and JavaScript(React)',
   '<a class="command" id="minesweeper" onclick="addLine(\'X:\\Users\\Guest> \' + command.innerHTML, \'no-animation\', 0); writeLines(minesweeper, \'\', 80)">MineSweeper</a>                 Project for my AP Computer Science A class coded in Java',
-  '<a class="command"></a>',
-  '<a class="command"></a>',
+  '<a class="command" id="jarvis" onclick="addLine(\'X:\\Users\\Guest> \' + command.innerHTML, \'no-animation\', 0); writeLines(jarvis, \'\', 80)">Jarvis Discord Bot[WIP]</a>         ',
+  '<a class="command" id="news" onclick="addLine(\'X:\\Users\\Guest> \' + command.innerHTML, \'no-animation\', 0); writeLines(news, \'\', 80)">Daily News Compiler[WIP]</a>         ',
   "<br>",
-  '<span class="command">Commands:</span>                   portfolio, ai, rpg, av, benchmark, webdev, minesweeper',
+  '<span class="command">Commands:</span>                   portfolio, aiPersonality, ai, rpg, av, news, jarvis, benchmark, webdev, minesweeper',
   "<br>"
 ];
 
@@ -101,11 +102,47 @@ help = [
   "<br>",
 ];
 
+aiAPI = [
+  "<br>",
+  '<span class="command">AI Personality</span>',
+  "<br>",
+  "       -This is an AI personality chatbot that I created using OpenAI, Azure, and Elevenlabs APIs. The project was coded in Python and used a multitude of imports",
+  "        and libraries to tie together all the APIs to create a chatbot that could be used to interact with the user using the microphone and speaking directly to the LLM.",
+  "        This project taught me a lot about APIs and how to utilize them to create an interesting project with Python.",
+  " <br>",
+  'Click for a <a class="command" onclick="addLine(\'X:\\Users\\Guest> \' + command.innerHTML, \'no-animation\', 0); writeLines(aiAPIDemo, \'\', 80)">Demo</a>',
+  'Check out the code here on my GitHub -----> <a class="command" href="https://github.com/fastfruits/AI-Personality" target="_blank">Repository</a>',
+  "<br>"
+]
+
+news = [
+  "<br>",
+  '<span class="command">Daily News Compiler[WIP]</span>',
+  "<br>",
+  "      -WIP come back later.",
+  "<br>",
+  'Click for a <a class="command" onclick="addLine(\'X:\\Users\\Guest> \' + command.innerHTML, \'no-animation\', 0); writeLines(newsDemo, \'\', 80)">Demo</a>',
+  'Check out the code here on my GitHub -----> <a class="command" href="https://github.com/fastfruits/DailyNewsCompiler" target="_blank">Repository</a>',
+  "<br>"
+]
+
+jarvis = [
+  "<br>",
+  '<span class="command">Jarvis Discord Bot[WIP]</span>',
+  "<br>",
+  "      -WIP come back later.",
+  "<br>",
+  'Click for a <a class="command" onclick="addLine(\'X:\\Users\\Guest> \' + command.innerHTML, \'no-animation\', 0); writeLines(jarvisDemo, \'\', 80)">Demo</a>',
+  'Check out the code here on my GitHub -----> <a class="command" href="https://github.com/fastfruits/DiscordJarvisBot" target="_blank">Repository</a>',
+  "<br>"
+]
+
 portfolio = [
   "<br>",
   '<span class="command">Portfolio Website</span>',
   "<br>",
   "       -This very website which I programmed with HTML/CSS and Javascript to show off my portfolio and web development skills like responsiveness and functionality.",
+  "        With this project I increased my knowledge of HTML, CSS, and Javascript and how to use them to create a website that is interesting and usable as a portfolio.", 
   "<br>",
   'Check out the code here on my GitHub -----> <a class="command" href="https://github.com/fastfruits/Website" target="_blank">Repository</a>',
   "<br>"
@@ -117,8 +154,9 @@ webdev = [
   "<br>",
   "      -Was invited by AICamp.org to intern for them and work on their website specifically creating a system to teach students year round as they were at the time limited",
   "       to only the summer and winter school breaks. This project was coded in HTML/CSS and Javascript with the React and Vite libraries to connect the frontend to the backend.",
+  "       With this project I learned a lot relating to Javascript and libraries like React and Vite and also what its like to work in a larger team and scale that is deployed to the public.",
   "<br>",
-  'Check out the code here on my GitHub -----> <a class="command" href="https://github.com/Suru10/CV-UI" target="_blank">',
+  'Check out the code here on GitHub -----> <a class="command" href="https://github.com/Suru10/CV-UI" target="_blank">',
   "<br>"
 ];
 
@@ -127,9 +165,11 @@ ai = [
   '<span class="command">AI Text-Transcriber</span>',
   "<br>",
   "      -Created and trained an AI model to recognize handwritten text and then transcribe it into a .txt file which could then be created into a .mp3 file that could be translated",
-  "       to whatever language the user wants if its available through Google's translate API. The program was written in python and used tensorflow and ",
+  "       to whatever language the user wants if its available through Google's translate API. The program was written in python and used tensorflow to teach the model with >10,000",
+  "       images of handwritten text over a few days.",
   "<br>",
-  'Check out the code here on my GitHub -----> <a class="command" href="https://github.com/panyang05/Text-Transcriber" target="_blank">Repository</a>',
+  'Click for a <a class="command" onclick="addLine(\'X:\\Users\\Guest> \' + command.innerHTML, \'no-animation\', 0); writeLines(aiDemo, \'\', 80)">Demo</a>',
+  'Check out the code here on GitHub -----> <a class="command" href="https://github.com/panyang05/Text-Transcriber" target="_blank">Repository</a>',
   "<br>"
 ];
 
@@ -139,8 +179,9 @@ rpg = [
   "<br>",
   "      -Was a submission for my school coding club's GameJam in which the theme was time. The game a 2D topdown RPG style game was written in java using game development ",
   "       practices like delta time, drawing many things to the screen, and creating a rudimentary artificial intelligence for the enemies.",
-  "       won first place in the competition.",
+  "       Won first place in the competition by almost unanimous member voting.",
   "<br>",
+  'Click for a <a class="command" onclick="addLine(\'X:\\Users\\Guest> \' + command.innerHTML, \'no-animation\', 0); writeLines(rpgDemo, \'\', 80)">Demo</a>',
   'Check out the code here on my GitHub -----> <a class="command" href="https://github.com/fastfruits/MedievalRPG1" target="_blank">Repository</a>',
   "<br>"
 ];
@@ -159,9 +200,11 @@ benchmark = [
   "<br>",
   '<span class="command">Human Benchmark Test</span>',
   "<br>",
-  "     -WIP",
+  "     -A program I created with Java for my school coding club's Hack-A-Thon where the them was \"test\". Creating this program for the competition taught me about working with",
+  "      user input and agglomerating data to generate scores and other info for the users. This program won first place in the competition by popular vote.",
   "<br>",
-  'Check out the code here on my GitHub -----> <a class="command" href="https://github.com/fastfruits/Benchmark-Test" target="_blank">',
+  'Click for a <a class="command" onclick="addLine(\'X:\\Users\\Guest> \' + command.innerHTML, \'no-animation\', 0); writeLines(benchmarkDemo, \'\', 80)">Demo</a>',
+  'Check out the code here on my GitHub -----> <a class="command" href="https://github.com/fastfruits/Benchmark-Test" target="_blank">Repository</a>',
   "<br>"
 ];
 
@@ -169,9 +212,10 @@ minesweeper = [
   "<br>",
   '<span class="command">Minesweeper</span>',
   "<br>",
-  "     -WIP",
+  "     -One of the many projects that I created for my AP Computer Science A class which was written in Java. This project utilized a 2D array of JButtons to create the tiles",
+  "      which were then randomly assigned to be mines or not and then after the user clicks on a tile it would calculate how many mines were around it and then display that number.",
   "<br>",
-  'Check out the code here on my GitHub -----> <a class="command" href="https://github.com/fastfruits/minesweeper target="_blank">',
+  'Check out the code here on my GitHub -----> <a class="command" href="https://github.com/fastfruits/minesweeper target="_blank">Repository</a>',
   "<br>"
 ];
 
@@ -215,4 +259,22 @@ webtitle = [
      '<span class="color2">/ /\\  / __  /  __/ | | | |  | |_| |  _ | (_| |  __/\\ V / ',
 '<span class="color2">\\_\\ \\/\\/ /_/ \\___|_| |_|_|   \\__, | (_) \\__,_|\\___| \\_/  ',
                                     '<span class="color2">|___/                   ',
+]
+
+aiDemo = [
+  "<br>",
+  '<video controls src="demos/sample.mp4">',
+  "<br>",
+]
+
+rpgDemo = [
+  "<br>",
+  '<video controls src="demos/sample.mp4">',
+  "<br>",
+]
+
+benchmarkDemo = [
+  "<br>",
+  '<video controls src="demos/sample.mp4">',
+  "<br>",
 ]

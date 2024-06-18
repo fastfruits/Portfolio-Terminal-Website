@@ -191,3 +191,11 @@ a:focus{
     text-align: left;
     margin-top: 0px;
 }
+
+video {
+    border-width: 5px;
+    border-style: solid;
+    border-color: #00ff00;
+    aspect-ratio: 16/9;
+    width: 800px;
+}
