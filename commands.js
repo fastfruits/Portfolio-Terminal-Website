@@ -2,6 +2,19 @@ var linkedin = "https://www.linkedin.com/in/nicholas-henry-57b325283/";
 var github = "https://github.com/fastfruits";
 var email = 'mailto:nichoias.henry1006@gmail.com';
 
+help = [
+  "<br>",
+  '<span class="command">whois</span>          Who Is Nicholas Henry?',
+  '<span class="command">techstack</span>      My Capabilities',
+  '<span class="command">projects</span>       View My Projects',
+  '<span class="command">socials</span>        Display Social Links',
+  '<span class="command">email</span>          Contact Me',
+  '<span class="command">clear</span>          Clear The Terminal',
+  '<span class="command">history</span>        View Command History',
+  '<span class="command">banner</span>         Display The Header Again',
+  "<br>",
+];
+
 whois = [
   "<br>",
   "Hi I'm Nicholas Henry",
@@ -65,13 +78,6 @@ skills = [
   "<br>"
 ]
 
-socials = [
-  "<br>",
-  '<span class="command">github</span>         <a href="' + github + '" target="_blank">github.com' + "</a>",
-  '<span class="command">linkedin</span>       <a href="' + linkedin + '" target="_blank">linkedin.com' + "</a>",
-  "<br>"
-];
-
 projects = [
   "<br>",
   '<a class="command" id="portfolio" onclick="addLine(\'X:\\Users\\Guest> \' + command.innerHTML, \'no-animation\', 0); writeLines(portfolio, \'\', 80)">Portfolio Website</a>           This website which I coded using HTML/CSS and JavaScript',
@@ -89,17 +95,22 @@ projects = [
   "<br>"
 ];
 
-help = [
+socials = [
   "<br>",
-  '<span class="command">whois</span>          Who Is Nicholas Henry?',
-  '<span class="command">skills</span>         My Capabilities',
-  '<span class="command">projects</span>       View My Projects',
-  '<span class="command">socials</span>        Display Social Links',
-  '<span class="command">email</span>          Contact Me',
-  '<span class="command">clear</span>          Clear The Terminal',
-  '<span class="command">history</span>        View Command History',
-  '<span class="command">banner</span>         Display The Header Again',
+  '<span class="command">github</span>         <a href="' + github + '" target="_blank">github.com' + "</a>",
+  '<span class="command">linkedin</span>       <a href="' + linkedin + '" target="_blank">linkedin.com' + "</a>",
+  "<br>"
+]; 
+
+portfolio = [
   "<br>",
+  '<span class="command">Portfolio Website</span>',
+  "<br>",
+  "       -This very website which I programmed with HTML/CSS and Javascript to show off my portfolio and web development skills like responsiveness and functionality.",
+  "        With this project I increased my knowledge of HTML, CSS, and Javascript and how to use them to create a website that is interesting and usable as a portfolio.", 
+  "<br>",
+  'Check out the code here on my GitHub -----> <a class="command" href="https://github.com/fastfruits/Website" target="_blank">Repository</a>',
+  "<br>"
 ];
 
 aiAPI = [
@@ -136,17 +147,6 @@ jarvis = [
   'Check out the code here on my GitHub -----> <a class="command" href="https://github.com/fastfruits/DiscordJarvisBot" target="_blank">Repository</a>',
   "<br>"
 ]
-
-portfolio = [
-  "<br>",
-  '<span class="command">Portfolio Website</span>',
-  "<br>",
-  "       -This very website which I programmed with HTML/CSS and Javascript to show off my portfolio and web development skills like responsiveness and functionality.",
-  "        With this project I increased my knowledge of HTML, CSS, and Javascript and how to use them to create a website that is interesting and usable as a portfolio.", 
-  "<br>",
-  'Check out the code here on my GitHub -----> <a class="command" href="https://github.com/fastfruits/Website" target="_blank">Repository</a>',
-  "<br>"
-];
 
 webdev = [
   "<br>",
@@ -219,6 +219,42 @@ minesweeper = [
   "<br>"
 ];
 
+aiDemo = [
+  "<br>",
+  '<video controls src="demos/sample.mp4">',
+  "<br>",
+]
+
+rpgDemo = [
+  "<br>",
+  '<video controls src="demos/sample.mp4">',
+  "<br>",
+]
+
+benchmarkDemo = [
+  "<br>",
+  '<video controls src="demos/sample.mp4">',
+  "<br>",
+]
+
+aiAPIDemo = [
+  "<br>",
+  '<video controls src="demos/sample.mp4">',
+  "<br>",
+]
+
+newsDemo = [
+  "<br>",
+  '<video controls src="demos/sample.mp4">',
+  "<br>",
+]
+
+jarvisDemo = [
+  "<br>",
+  '<video controls src="demos/sample.mp4">',
+  "<br>",
+]
+
 banner = [
   '<span class="index">NHenry.dev [Version 1.0.1]<span>',
   ,'<span class="index">Nicholas Henry (NH) Not A Corporation. All rights reserved.</span>',
@@ -259,22 +295,4 @@ webtitle = [
      '<span class="color2">/ /\\  / __  /  __/ | | | |  | |_| |  _ | (_| |  __/\\ V / ',
 '<span class="color2">\\_\\ \\/\\/ /_/ \\___|_| |_|_|   \\__, | (_) \\__,_|\\___| \\_/  ',
                                     '<span class="color2">|___/                   ',
-]
-
-aiDemo = [
-  "<br>",
-  '<video controls src="demos/sample.mp4">',
-  "<br>",
-]
-
-rpgDemo = [
-  "<br>",
-  '<video controls src="demos/sample.mp4">',
-  "<br>",
-]
-
-benchmarkDemo = [
-  "<br>",
-  '<video controls src="demos/sample.mp4">',
-  "<br>",
 ]
