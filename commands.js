@@ -227,7 +227,7 @@ aiDemo = [
 
 rpgDemo = [
   "<br>",
-  '<video controls src="demos/sample.mp4">',
+  '<video controls src="demos/medievalDemo.mp4">',
   "<br>",
 ]
 
