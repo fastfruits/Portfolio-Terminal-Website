@@ -132,7 +132,7 @@ news = [
   "<br>",
   "      -WIP come back later.",
   "<br>",
-  'Click for a <a class="command" onclick="addLine(\'X:\\Users\\Guest> \' + command.innerHTML, \'no-animation\', 0); writeLines(newsDemo, \'\', 80)">Demo</a>',
+  //'Click for a <a class="command" onclick="addLine(\'X:\\Users\\Guest> \' + command.innerHTML, \'no-animation\', 0); writeLines(newsDemo, \'\', 80)">Demo</a>',
   'Check out the code here on my GitHub -----> <a class="command" href="https://github.com/fastfruits/DailyNewsCompiler" target="_blank">Repository</a>',
   "<br>"
 ]
@@ -143,7 +143,7 @@ jarvis = [
   "<br>",
   "      -WIP come back later.",
   "<br>",
-  'Click for a <a class="command" onclick="addLine(\'X:\\Users\\Guest> \' + command.innerHTML, \'no-animation\', 0); writeLines(jarvisDemo, \'\', 80)">Demo</a>',
+  //'Click for a <a class="command" onclick="addLine(\'X:\\Users\\Guest> \' + command.innerHTML, \'no-animation\', 0); writeLines(jarvisDemo, \'\', 80)">Demo</a>',
   'Check out the code here on my GitHub -----> <a class="command" href="https://github.com/fastfruits/DiscordJarvisBot" target="_blank">Repository</a>',
   "<br>"
 ]
@@ -168,7 +168,7 @@ ai = [
   "       to whatever language the user wants if its available through Google's translate API. The program was written in python and used tensorflow to teach the model with >10,000",
   "       images of handwritten text over a few days.",
   "<br>",
-  'Click for a <a class="command" onclick="addLine(\'X:\\Users\\Guest> \' + command.innerHTML, \'no-animation\', 0); writeLines(aiDemo, \'\', 80)">Demo</a>',
+  //'Click for a <a class="command" onclick="addLine(\'X:\\Users\\Guest> \' + command.innerHTML, \'no-animation\', 0); writeLines(aiDemo, \'\', 80)">Demo</a>',
   'Check out the code here on GitHub -----> <a class="command" href="https://github.com/panyang05/Text-Transcriber" target="_blank">Repository</a>',
   "<br>"
 ];
@@ -233,7 +233,7 @@ rpgDemo = [
 
 benchmarkDemo = [
   "<br>",
-  '<video controls src="demos/sample.mp4">',
+  '<video controls src="demos/benchmarkDemo.mp4">',
   "<br>",
 ]
 
