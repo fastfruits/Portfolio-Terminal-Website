@@ -101,10 +101,7 @@ function commander(cmd) {
         break;
         case "minesweeper":
             writeLines(minesweeper, "color2 margin", 50);
-        break;
-        case "webdev":
-            writeLines(webdev, "color2 margin", 50);
-        break;
+        break; 
         case "rpg":
             writeLines(rpg, "color2 margin", 50);
         break;

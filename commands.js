@@ -105,7 +105,6 @@ projects = [
   '<a class="command" id="rpg" onclick="addLine(\'X:\\Users\\Guest> \' + command.innerHTML, \'no-animation\', 0); writeLines(rpg, \'\', 80)">Medieval RPG</a>                Submission for my school club\'s GameJam coded in Java',
   '<a class="command" id="av" onclick="addLine(\'X:\\Users\\Guest> \' + command.innerHTML, \'no-animation\', 0); writeLines(av, \'\', 80)">Ten80 AV Car</a>                Wrote scripts in python for my school\'s Ten80 AV Car',
   '<a class="command" id="benchmark" onclick="addLine(\'X:\\Users\\Guest> \' + command.innerHTML, \'no-animation\', 0); writeLines(benchmark, \'\', 80)">Human Benchmark Test</a>        Submission for my school club\'s Hack-A-Thon coded in Java',
-  '<a class="command" id="webdev" onclick="addLine(\'X:\\Users\\Guest> \' + command.innerHTML, \'no-animation\', 0); writeLines(webdev, \'\', 80)">Web Dev Internship</a>          Wrote a portion of AICamp.org\'s website in HTML/CSS and JavaScript(React)',
   '<a class="command" id="minesweeper" onclick="addLine(\'X:\\Users\\Guest> \' + command.innerHTML, \'no-animation\', 0); writeLines(minesweeper, \'\', 80)">MineSweeper</a>                 Project for my AP Computer Science A class coded in Java',
   '<a class="command" id="jarvis" onclick="addLine(\'X:\\Users\\Guest> \' + command.innerHTML, \'no-animation\', 0); writeLines(jarvis, \'\', 80)">Jarvis Discord Bot[WIP]</a>         ',
   '<a class="command" id="news" onclick="addLine(\'X:\\Users\\Guest> \' + command.innerHTML, \'no-animation\', 0); writeLines(news, \'\', 80)">Daily News Compiler[WIP]</a>         ',
@@ -166,18 +165,6 @@ jarvis = [
   'Check out the code here on my GitHub -----> <a class="command" href="https://github.com/fastfruits/DiscordJarvisBot" target="_blank">Repository</a>',
   "<br>"
 ]
-
-webdev = [
-  "<br>",
-  '<span class="command">Web Dev Internship</span>',
-  "<br>",
-  "      -Was invited by AICamp.org to intern for them and work on their website specifically creating a system to teach students year round as they were at the time limited",
-  "       to only the summer and winter school breaks. This project was coded in HTML/CSS and Javascript with the React and Vite libraries to connect the frontend to the backend.",
-  "       With this project I learned a lot relating to Javascript and libraries like React and Vite and also what its like to work in a larger team and scale that is deployed to the public.",
-  "<br>",
-  'Check out the code here on GitHub -----> <a class="command" href="https://github.com/Suru10/CV-UI" target="_blank">',
-  "<br>"
-];
 
 ai = [
   "<br>",
