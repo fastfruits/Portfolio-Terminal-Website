@@ -84,6 +84,9 @@ function commander(cmd) {
         case "techstack":
             writeLines(skills, "color2 margin", 50)
         break;
+        case "internships":
+            writeLines(internships, "color2 margin", 50);
+        break;
         case "socials":
             writeLines(socials, "color2 margin", 50);
         break;

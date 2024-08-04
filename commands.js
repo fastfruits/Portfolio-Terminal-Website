@@ -5,10 +5,11 @@ var email = 'mailto:nichoias.henry1006@gmail.com';
 help = [
   "<br>",
   '<span class="command">whois</span>          Who Is Nicholas Henry?',
-  '<span class="command">techstack</span>      My Capabilities',
+  '<span class="command">techstack</span>      My Languages And Libraries',
+  '<span class="command">internships</span>    Real World Experience',
   '<span class="command">projects</span>       View My Projects',
   '<span class="command">socials</span>        Display Social Links',
-  '<span class="command">email</span>          Contact Me',
+  '<span class="command">email</span>          Contact Through Email',
   '<span class="command">clear</span>          Clear The Terminal',
   '<span class="command">history</span>        View Command History',
   '<span class="command">banner</span>         Display The Header Again',
@@ -75,6 +76,24 @@ skills = [
   "   -More work with machine learning and Tensorflow",
   "   -Use of APIs",
   "   -C++",
+  "<br>"
+]
+
+internships = [
+  "<br>",
+  '<a class="command" href="aicamp.org" target="_blank">AICamp</a> - Web Developer Intern',
+  "<br>",
+  "   - Was a web developer intern for AICamp in which I created additions for the website and organization of it",
+  "   - Worked on creating new a part of the site to host their computer vision AI summer camps on the site instead of needed a instructor",
+  "   - Was the team manager of the five person team in which I lead update meetings and worked with the coding and content team together",
+  "   - Used HTML, CSS, JavaScript, Vite.js, and React.js to create the site's additions",
+  "<br>",
+  '<a class="command" href="seoneeded.com" target="_blank">SEONeeded</a> - SEO Assistant Intern',
+  "<br>",
+  "   - Worked as an SEO assistant intern for SEONeeded through the MDCPS Summer Internship Program",
+  "   - Learned a lot about the way search engines prioritize search results and how to boost sites to the top of the lists organically and locally",
+  "   - Mainly did keyword research, blog creation, and social media posting for SEONeeded and The4thSister for the duration of the internship",
+  "   -Used technologies like WordPress, SEOMoz, and Meta business suite for the tasks I was assigned.",
   "<br>"
 ]
 
@@ -256,7 +275,7 @@ jarvisDemo = [
 ]
 
 banner = [
-  '<span class="index">NHenry.dev [Version 1.0.1]<span>',
+  '<span class="index">NHenry.dev [Version 1.1.4]<span>',
   ,'<span class="index">Nicholas Henry (NH) Not A Corporation. All rights reserved.</span>',
   ,"                              =",
   ,"                              ==",
@@ -286,7 +305,7 @@ banner = [
   ,"             ************************                                       " + '<span class="color2">|___/                   ',
   '<span class="color2">Welcome to my interactive web terminal.</span>',
   "<span class=\"color2\">For a list of available commands, type</span> <span class=\"command\">'help'</span><span class=\"color2\">.</span>",
-];
+]
 
 webtitle = [
            '<span class="color2">__                                     _            ',
