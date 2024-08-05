@@ -10,9 +10,10 @@ help = [
   '<span class="command">projects</span>       View My Projects',
   '<span class="command">socials</span>        Display Social Links',
   '<span class="command">email</span>          Contact Through Email',
-  '<span class="command">clear</span>          Clear The Terminal',
-  '<span class="command">history</span>        View Command History',
+  '<span class="command">light/dark</span>     Changes The Theme Of The Terminal',
   '<span class="command">banner</span>         Display The Header Again',
+  '<span class="command">history</span>        View Command History',
+  '<span class="command">clear</span>          Clear The Terminal',
   "<br>",
 ];
 
