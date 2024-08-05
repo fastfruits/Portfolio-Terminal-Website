@@ -3,6 +3,8 @@ var liner = getEl("liner");
 var command = getEl("typer"); 
 var textarea = getEl("texter"); 
 var terminal = getEl("terminal");
+var mainContent = getEl("main-content");
+var body = getEl("body");
 
 var git = 0;
 var commands = [];
@@ -10,7 +12,6 @@ var commands = [];
 document.addEventListener("DOMContentLoaded", function() {
     var loadingBar = getEl("loading-bar");
     var loadingText = getEl("loading-text");
-    var mainContent = getEl("main-content");
     var loadingContainer = getEl("loading-container");
     var width = 0;
 
@@ -144,10 +145,10 @@ function commander(cmd) {
             newTab(github);
         break;
         case "light":
-
+            body.classList.add("light");
         break;
         case "dark":
-
+            body.classList.remove("light");
         break;
         default:
             addLine("<span class=\"inherit\">Command not found. For a list of commands, type <span class=\"command\">'help'</span>.</span>", "error", 100);
