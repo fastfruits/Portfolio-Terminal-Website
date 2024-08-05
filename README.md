@@ -1,4 +1,5 @@
-README
+# README
+
 # Portfolio Website Project
 
 ## Project Description
@@ -43,7 +44,7 @@ JavaScript was employed to bring interactivity and functionality to the website.
 
 ### Future Enhancements
 
-- **Additional Commands**: Adding more commands to display additional information or perform more complex actions.
+- **Additional Commands**: Adding more commands to display additional information.
 - **Theming Options**: Allowing users to switch between different terminal themes.
 
 ---
