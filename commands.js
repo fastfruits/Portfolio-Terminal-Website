@@ -295,6 +295,18 @@ banner = [
   "<span class=\"color2\">For a list of available commands, type</span> <span class=\"command\">'help'</span><span class=\"color2\">.</span>",
 ]
 
+light = [
+  "<br>",
+  "<span>Terminal set to light mode!</span>",
+  "<br>"
+]
+
+dark = [
+  "<br>",
+  "<span>Terminal set to dark mode!</span>",
+  "<br>"
+]
+
 webtitle = [
            '<span class="color2">__                                     _            ',
    '<span class="color2">/\\ \\ \\/\\  /\\___ _ __  _ __ _   _       __| | _____   __</span>',

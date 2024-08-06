@@ -145,9 +145,11 @@ function commander(cmd) {
             newTab(github);
         break;
         case "light":
+            writeLines(light, "color2", 0);
             body.classList.add("light");
         break;
         case "dark":
+            writeLines(dark, "color2", 0);
             body.classList.remove("light");
         break;
         default:
