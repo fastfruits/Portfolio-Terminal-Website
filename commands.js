@@ -75,7 +75,6 @@ skills = [
   '<span class="command">Future Skills To Learn</span>',
   "<br>",
   "   -More work with machine learning and Tensorflow",
-  "   -Use of APIs",
   "   -C++",
   "<br>"
 ]
@@ -107,10 +106,11 @@ projects = [
   '<a class="command" id="av" onclick="addLine(\'X:\\Users\\Guest> \' + command.innerHTML, \'no-animation\', 0); writeLines(av, \'\', 80)">Ten80 AV Car</a>                Wrote scripts in python for my school\'s Ten80 AV Car',
   '<a class="command" id="benchmark" onclick="addLine(\'X:\\Users\\Guest> \' + command.innerHTML, \'no-animation\', 0); writeLines(benchmark, \'\', 80)">Human Benchmark Test</a>        Submission for my school club\'s Hack-A-Thon coded in Java',
   '<a class="command" id="minesweeper" onclick="addLine(\'X:\\Users\\Guest> \' + command.innerHTML, \'no-animation\', 0); writeLines(minesweeper, \'\', 80)">MineSweeper</a>                 Project for my AP Computer Science A class coded in Java',
-  '<a class="command" id="jarvis" onclick="addLine(\'X:\\Users\\Guest> \' + command.innerHTML, \'no-animation\', 0); writeLines(jarvis, \'\', 80)">Jarvis Discord Bot[WIP]</a>         ',
-  '<a class="command" id="news" onclick="addLine(\'X:\\Users\\Guest> \' + command.innerHTML, \'no-animation\', 0); writeLines(news, \'\', 80)">Daily News Compiler[WIP]</a>         ',
+  '<a class="command" id="jarvis" onclick="addLine(\'X:\\Users\\Guest> \' + command.innerHTML, \'no-animation\', 0); writeLines(jarvis, \'\', 80)">Jarvis Discord Bot[WIP]</a>',
+  '<a class="command" id="news" onclick="addLine(\'X:\\Users\\Guest> \' + command.innerHTML, \'no-animation\', 0); writeLines(news, \'\', 80)">Daily News Compiler[WIP]</a>',
+  '<a class="command" id="news" onclick="addLine(\'X:\\Users\\Guest> \' + command.innerHTML, \'no-animation\', 0); writeLines(wateralarm, \'\', 80)">Water Alarm Clock[WIP]</a>',
   "<br>",
-  '<span class="command">Commands:</span>                   portfolio, aiPersonality, ai, rpg, av, news, jarvis, benchmark, webdev, minesweeper',
+  '<span class="command">Commands:</span>                   portfolio, aiAPI, ai, rpg, av, benchmark, minesweeper, jarvis, news, wateralarm',
   "<br>"
 ];
 
@@ -152,7 +152,7 @@ news = [
   "      -WIP come back later.",
   "<br>",
   //'Click for a <a class="command" onclick="addLine(\'X:\\Users\\Guest> \' + command.innerHTML, \'no-animation\', 0); writeLines(newsDemo, \'\', 80)">Demo</a>',
-  'Check out the code here on my GitHub -----> <a class="command" href="https://github.com/fastfruits/DailyNewsCompiler" target="_blank">Repository</a>',
+  'Check out the code here on my GitHub -----> <a class="command" href="https://github.com/fastfruits/Daily-News-Compiler" target="_blank">Repository</a>',
   "<br>"
 ]
 
@@ -163,7 +163,7 @@ jarvis = [
   "      -WIP come back later.",
   "<br>",
   //'Click for a <a class="command" onclick="addLine(\'X:\\Users\\Guest> \' + command.innerHTML, \'no-animation\', 0); writeLines(jarvisDemo, \'\', 80)">Demo</a>',
-  'Check out the code here on my GitHub -----> <a class="command" href="https://github.com/fastfruits/DiscordJarvisBot" target="_blank">Repository</a>',
+  'Check out the code here on my GitHub -----> <a class="command" href="https://github.com/fastfruits/Discord-Jarvis-Bot" target="_blank">Repository</a>',
   "<br>"
 ]
 
@@ -189,7 +189,7 @@ rpg = [
   "       Won first place in the competition by almost unanimous member voting.",
   "<br>",
   'Click for a <a class="command" onclick="addLine(\'X:\\Users\\Guest> \' + command.innerHTML, \'no-animation\', 0); writeLines(rpgDemo, \'\', 80)">Demo</a>',
-  'Check out the code here on my GitHub -----> <a class="command" href="https://github.com/fastfruits/MedievalRPG1" target="_blank">Repository</a>',
+  'Check out the code here on my GitHub -----> <a class="command" href="https://github.com/fastfruits/Medieval-RPG" target="_blank">Repository</a>',
   "<br>"
 ];
 
@@ -223,6 +223,17 @@ minesweeper = [
   "      which were then randomly assigned to be mines or not and then after the user clicks on a tile it would calculate how many mines were around it and then display that number.",
   "<br>",
   'Check out the code here on my GitHub -----> <a class="command" href="https://github.com/fastfruits/minesweeper target="_blank">Repository</a>',
+  "<br>"
+];
+
+wateralarm = [
+  "<br>",
+  '<span class="command">Water Alarm Clock[WIP]</span>',
+  "<br>",
+  "      -WIP come back later.",
+  "<br>",
+  //'Click for a <a class="command" onclick="addLine(\'X:\\Users\\Guest> \' + command.innerHTML, \'no-animation\', 0); writeLines(jarvisDemo, \'\', 80)">Demo</a>',
+  'Check out the code here on my GitHub -----> <a class="command" href="https://github.com/fastfruits/Water-Alarm-Clock" target="_blank">Repository</a>',
   "<br>"
 ];
 

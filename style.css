@@ -99,7 +99,6 @@ b{
     }
 }
 
-
 p{
     display: block;
     line-height: 1.3em;
@@ -202,4 +201,23 @@ video {
 
 .light {
     background: #dfdfdf;
+}
+
+@media (max-width: 768px) {
+    #body{
+        background: #ffffff;
+        font-size: 10px;
+    }
+    #main-content {
+        color: #ffffff;
+    }
+    #loading-container {
+        left: 550px;
+    }
+    #loading-bar {
+        left: 550px;
+    }
+    #loading-text {
+        left: 550px;
+    }
 }

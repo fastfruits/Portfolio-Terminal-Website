@@ -9,6 +9,7 @@
     <link rel="icon" href="terminal.png">
   </head>
   <body class="loading" id="body">
+
     <div id="webTitle">           
       <span class="color2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;__&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_</span>
     </br>
@@ -36,8 +37,7 @@
           type="text"
           id="texter"
           onkeyup="typeToTyper(this, event)"
-          onkeydown="typeToTyper(this, event); 
-                   shiftCursor(this.value.length, event)"
+          onkeydown="typeToTyper(this, event); shiftCursor(this.value.length, event)"
           onkeypress="typeToTyper(this, event);"
           autofocus
         ></textarea>
@@ -46,7 +46,9 @@
         </div>
       </div>
     </div>
+
   <script src="commands.js"></script>
   <script src="main.js"></script>
+
   </body>
 </html>

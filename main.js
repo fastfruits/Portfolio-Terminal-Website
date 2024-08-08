@@ -118,6 +118,9 @@ function commander(cmd) {
         case "aiAPI":
             writeLines(aiAPI, "color2 margin", 50);
         break;
+        case "wateralarm":
+            writeLines(wateralarm, "color2 margin", 50);
+        break;
         case "history":
             addLine("<br>", "", 0);
             writeLines(commands, "color2", 50);
