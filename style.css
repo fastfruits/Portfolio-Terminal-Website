@@ -208,6 +208,11 @@ video {
         background: #ffffff;
         font-size: 10px;
     }
+    body.loading {
+        justify-content: center;
+        height: 100vh;
+        flex-direction: column;
+    }
     #main-content {
         color: #ffffff;
     }
