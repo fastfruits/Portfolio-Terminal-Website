@@ -86,7 +86,7 @@ internships = [
   "   - Was a web developer intern for AICamp in which I created additions for the website and organization of it",
   "   - Worked on creating new a part of the site to host their computer vision AI summer camps on the site instead of needed a instructor",
   "   - Was the team manager of the five person team in which I lead update meetings and worked with the coding and content team together",
-  "   - Used HTML, CSS, JavaScript, Vite.js, and React.js to create the site's additions",
+  "   - Used HTML, Tailwind CSS, JavaScript, Vite.js, and React.js to create the site's additions",
   "<br>",
   '<a class="command" href="seoneeded.com" target="_blank">SEONeeded</a> - SEO Assistant Intern',
   "<br>",
