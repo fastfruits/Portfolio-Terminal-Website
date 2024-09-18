@@ -257,19 +257,19 @@ benchmarkDemo = [
 
 aiAPIDemo = [
   "<br>",
-  '<video controls src="demos/sample.mp4">',
+  '<video controls src="demos/aiDemo.mp4">',
   "<br>",
 ]
 
 newsDemo = [
   "<br>",
-  '<video controls src="demos/sample.mp4">',
+  '<video controls src="demos/newsDemo.mp4">',
   "<br>",
 ]
 
 jarvisDemo = [
   "<br>",
-  '<video controls src="demos/sample.mp4">',
+  '<video controls src="demos/jarvisDemo.mp4">',
   "<br>",
 ]
 
