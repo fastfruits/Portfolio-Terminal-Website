@@ -49,7 +49,7 @@ skills = [
   "   -Python: ",
   "         *Learned through self teaching, videos, and projects.",
   "         *Skilled in machine learning, web scraping, automation, and working with robotics.",
-  "         *Mainly used for my school club's Ten80 AV car which used a microcontroller and sensors like an odometer, IR, and ultrasonic.",
+  "         *Mainly used for my school club's Ten80 AV car which used a micro controller and sensors like an odometer, IR, and ultrasonic.",
   "   -C#: ",
   "         *Learned through the freecodecamp.org C# certification course and self-driven projects.",
   "         *This is the language I'm least experienced in but have created applications and small games in the Unity Engine.",
@@ -90,10 +90,10 @@ internships = [
   "<br>",
   '<a class="command" href="seoneeded.com" target="_blank">SEONeeded</a> - SEO Assistant Intern',
   "<br>",
-  "   - Worked as an SEO assistant intern for SEONeeded through the MDCPS Summer Internship Program",
+  "   - Worked as an SEO assistant intern for SEONeeded through the MDCPS(Miami-Dade County Public Schools) Summer Internship Program",
   "   - Learned a lot about the way search engines prioritize search results and how to boost sites to the top of the lists organically and locally",
   "   - Mainly did keyword research, blog creation, and social media posting for SEONeeded and The4thSister for the duration of the internship",
-  "   -Used technologies like WordPress, SEOMoz, and Meta business suite for the tasks I was assigned.",
+  "   - Used technologies like WordPress, SEOMoz, and Meta business suite for the tasks I was assigned.",
   "<br>"
 ]
 
