@@ -184,7 +184,7 @@ rpg = [
   "<br>",
   '<span class="command">Medieval RPG</span>',
   "<br>",
-  "      -Was a submission for my school coding club's GameJam in which the theme was time. The game a 2D topdown RPG style game was written in java using game development ",
+  "      -Was a submission for my school coding club's GameJam in which the theme was time. The game a 2D top down RPG style game was written in java using game development ",
   "       practices like delta time, drawing many things to the screen, and creating a rudimentary artificial intelligence for the enemies.",
   "       Won first place in the competition by almost unanimous member voting.",
   "<br>",
@@ -200,7 +200,9 @@ av = [
   "     -I joined my school's Ten80 club and became the head of the AV car. I coded all the scripts for it to adhere to the Ten80 competition and each of the challenges.",
   "      We took this car to many competitions and won a lot and were invited to the national finals in Charlotte. With this project I learned to combined software and hardware",
   "      as I worked with coding sensors like an odometer, IR, and ultrasonic for the cars to be fully automatic in each challenge.",
-  "<br>"
+  "<br>",
+  'Check out the code here on my GitHub -----> <a class="command" href="https://github.com/fastfruits/AutonomousVehicle_Ten802023-2024" target="_blank">Repository</a>',
+  "</br>"
 ];
 
 benchmark = [
@@ -230,7 +232,7 @@ wateralarm = [
   "<br>",
   '<span class="command">Water Alarm Clock[WIP]</span>',
   "<br>",
-  "      -WIP come back later.",
+  "      -WIP come back later for the complete project.",
   "<br>",
   //'Click for a <a class="command" onclick="addLine(\'X:\\Users\\Guest> \' + command.innerHTML, \'no-animation\', 0); writeLines(jarvisDemo, \'\', 80)">Demo</a>',
   'Check out the code here on my GitHub -----> <a class="command" href="https://github.com/fastfruits/Water-Alarm-Clock" target="_blank">Repository</a>',
