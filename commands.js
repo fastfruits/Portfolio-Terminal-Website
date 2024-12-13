@@ -105,12 +105,12 @@ projects = [
   '<a class="command" id="rpg" onclick="addLine(\'X:\\Users\\Guest> \' + command.innerHTML, \'no-animation\', 0); writeLines(rpg, \'\', 80)">Medieval RPG</a>                Submission for my school club\'s GameJam coded in Java',
   '<a class="command" id="av" onclick="addLine(\'X:\\Users\\Guest> \' + command.innerHTML, \'no-animation\', 0); writeLines(av, \'\', 80)">Ten80 AV Car</a>                Wrote scripts in python for my school\'s Ten80 AV Car',
   '<a class="command" id="benchmark" onclick="addLine(\'X:\\Users\\Guest> \' + command.innerHTML, \'no-animation\', 0); writeLines(benchmark, \'\', 80)">Human Benchmark Test</a>        Submission for my school club\'s Hack-A-Thon coded in Java',
-  '<a class="command" id="minesweeper" onclick="addLine(\'X:\\Users\\Guest> \' + command.innerHTML, \'no-animation\', 0); writeLines(minesweeper, \'\', 80)">MineSweeper</a>                 Project for my AP Computer Science A class coded in Java',
+  '<a class="command" id="sanitizer" onclick="addLine(\'X:\\Users\\Guest> \' + command.innerHTML, \'no-animation\', 0); writeLines(sanitizer, \'\', 80)">Auto Sanitizer Dispenser</a>    Engineering project to create a contactless sanitizer dispenser',
   '<a class="command" id="jarvis" onclick="addLine(\'X:\\Users\\Guest> \' + command.innerHTML, \'no-animation\', 0); writeLines(jarvis, \'\', 80)">Jarvis Discord Bot[WIP]</a>',
   '<a class="command" id="news" onclick="addLine(\'X:\\Users\\Guest> \' + command.innerHTML, \'no-animation\', 0); writeLines(news, \'\', 80)">Daily News Compiler[WIP]</a>',
   '<a class="command" id="news" onclick="addLine(\'X:\\Users\\Guest> \' + command.innerHTML, \'no-animation\', 0); writeLines(wateralarm, \'\', 80)">Water Alarm Clock[WIP]</a>',
   "<br>",
-  '<span class="command">Commands:</span>                   portfolio, aiAPI, ai, rpg, av, benchmark, minesweeper, jarvis, news, wateralarm',
+  '<span class="command">Commands:</span>                   portfolio, aiAPI, ai, rpg, av, benchmark, dispenser, jarvis, news, wateralarm',
   "<br>"
 ];
 
@@ -220,16 +220,15 @@ benchmark = [
   "<br>"
 ];
 
-minesweeper = [
-  "<br>",
-  '<span class="command">Minesweeper</span>',
-  "<br>",
-  "     -One of the projects that I created for my AP Computer Science A class which was written in Java. This project utilized a 2D array of JButtons to create the tiles",
-  "      which were then randomly assigned to be mines or not and then after the user clicks on a tile it would calculate how many mines were around it and then display that number.",
-  "<br>",
-  'Check out the code here on my GitHub -----> <a class="command" href="https://github.com/fastfruits/minesweeper target="_blank">Repository</a>',
-  "<br>"
-];
+sanitizer = [
+"</br>",
+'<span class="command">Automatic Hand Sanitizer Dispenser</span>',
+"</br>",
+"",
+"",
+'Check out the code here on my Github -----> <a class="command" href="https://github.com/fastfruits/AutoSanitizerDispenser" target="_blank">Repository</a>',
+"</br>"
+]
 
 wateralarm = [
   "<br>",
@@ -262,19 +261,19 @@ benchmarkDemo = [
 
 aiAPIDemo = [
   "<br>",
-  '<video controls src="demos/aiDemo.mp4">',
+  '<video controls src="demos/sample.mp4">',
   "<br>",
 ]
 
 newsDemo = [
   "<br>",
-  '<video controls src="demos/newsDemo.mp4">',
+  '<video controls src="demos/sample.mp4">',
   "<br>",
 ]
 
 jarvisDemo = [
   "<br>",
-  '<video controls src="demos/jarvisDemo.mp4">',
+  '<video controls src="demos/sample.mp4">',
   "<br>",
 ]
 

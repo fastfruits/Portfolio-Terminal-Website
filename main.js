@@ -100,9 +100,6 @@ function commander(cmd) {
         case "av":
             writeLines(av, "color2 margin", 50);
         break;
-        case "minesweeper":
-            writeLines(minesweeper, "color2 margin", 50);
-        break; 
         case "rpg":
             writeLines(rpg, "color2 margin", 50);
         break;
@@ -120,6 +117,9 @@ function commander(cmd) {
         break;
         case "wateralarm":
             writeLines(wateralarm, "color2 margin", 50);
+        break;
+        case "dispenser":
+            writeLines(sanitizer, "color2 margin", 50);
         break;
         case "history":
             addLine("<br>", "", 0);
