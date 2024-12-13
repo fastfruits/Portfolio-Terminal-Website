@@ -224,8 +224,12 @@ sanitizer = [
 "</br>",
 '<span class="command">Automatic Hand Sanitizer Dispenser</span>',
 "</br>",
-"",
-"",
+"      -A project in my high school engineering class in which we were assigned to use any means necessary to create a contactless dispenser for sanitizer.",
+"       while other groups used simple circuits my group pioneered by using more advanced servos and Arduino.",
+"      -The arduino was programmed in tandem with a ultrasonic sensor which would detect if a hand was there and even dispense different amounts based on distance",
+"      -We 3D printed a housing for everything to make it look cleaner.",
+"      -Through this project I learned more about 3D printing, electronics, and Arduino while working on a team that used creative and advanced solutions.",
+"</br>",
 'Check out the code here on my Github -----> <a class="command" href="https://github.com/fastfruits/AutoSanitizerDispenser" target="_blank">Repository</a>',
 "</br>"
 ]
